@@ -1,0 +1,26 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(153,22,170,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    
+}
+.Timer{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.Time{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
